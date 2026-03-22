@@ -20,11 +20,11 @@ const Navbar = () => {
   return (
     <nav className="bg-[#1A283A] text-white sticky top-0 z-50">
       {/* Main Navbar */}
-      <div className="container mx-auto  py-2 flex items-center justify-between">
+      <div className="container mx-auto   py-2 flex items-center justify-between">
         
         {/* Logo */}
         <Link href="/" className="flex items-center">
-          <Image src={logo} alt="Logo" width={120} height={40} />
+          <Image src={logo} alt="Logo" width={200} height={200} />
         </Link>
 
         {/* Desktop Menu */}
