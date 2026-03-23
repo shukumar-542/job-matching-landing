@@ -7,7 +7,7 @@ import { IoMdCheckmarkCircleOutline } from 'react-icons/io'
 
 const HowItWork = () => {
     return (
-        <div className='container mx-auto p-3'>
+        <div id='how-it-works' className='container mx-auto p-3'>
             <HeadingText
                 title="How It Works"
                 description="Getting started is simple. Follow these four easy steps to find your perfect job match."

@@ -6,7 +6,7 @@ import HeadingText from '../Shared/HeadingText/HeadingText'
 
 const Screen = () => {
   return (
-    <div className='px-3'>
+    <div className='px-3' id='screen'>
         <HeadingText 
             title="Beautiful App Interface"
             description="Explore our intuitive design crafted for a seamless job matching experience"

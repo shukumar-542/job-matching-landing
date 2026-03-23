@@ -19,7 +19,7 @@ const Footer = () => {
           <Image src={logo} alt="Logo" className="h-24 object-contain " />
 
         </div>
-        <div className="flex justify-center items-center gap-5 py-5">
+        <div className="flex flex-wrap justify-center items-center gap-5 py-5">
           {navLinks.map((link) => (
             <Link
               key={link.path}

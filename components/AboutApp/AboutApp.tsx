@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { FaCircleCheck } from 'react-icons/fa6'
 const AboutApp = () => {
     return (
-        <div className='container mx-auto px-3'>
+        <div className='container mx-auto px-3' id='about'>
             <HeadingText
                 title="About Our App"
                 description="The first Tinder-style job matching platform designed specifically for Exhibition Stand Installers"
