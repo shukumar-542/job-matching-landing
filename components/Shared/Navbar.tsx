@@ -52,9 +52,9 @@ const Navbar = () => {
           className="md:hidden flex flex-col gap-1"
           onClick={() => setMenuOpen(true)}
         >
-          <span className="w-6 h-[2px] bg-white"></span>
-          <span className="w-6 h-[2px] bg-white"></span>
-          <span className="w-6 h-[2px] bg-white"></span>
+          <span className="w-6 h-0.5 bg-white"></span>
+          <span className="w-6 h-0.5 bg-white"></span>
+          <span className="w-6 h-0.5 bg-white"></span>
         </button>
       </div>
 
