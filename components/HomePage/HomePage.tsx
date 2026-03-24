@@ -3,6 +3,7 @@ import Screen from '../Screen/Screen'
 import HowItWork from '../HowItWork/HowItWork'
 import AboutApp from '../AboutApp/AboutApp'
 import HeroSection from '../HeroSection/HeroSection'
+import Contact from '../Contact/Contact'
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
         <AboutApp/>
         <HowItWork/>
         <Screen />
+        <Contact/>
       </div>
     </div>
   )
