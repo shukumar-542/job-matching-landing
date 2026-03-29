@@ -7,8 +7,8 @@ const Screen = () => {
   return (
     <div className='px-3' id='screen'>
         <HeadingText 
-            title="Beautiful App Interface"
-            description="Explore our intuitive design crafted for a seamless job matching experience"
+            title="Die App auf einen Blick"
+            description="Aufträge finden. Monteure und Veranstaltungsbau-Firmen verbinden. Schnell, einfach unkompliziert-mit nur einem Swoom"
         />
         <div>
             <Image src={screen} alt="App Screen" className='mx-auto py-8 md:py-16'/>

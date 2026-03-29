@@ -6,13 +6,13 @@ import Image from "next/image"
 const Contact = () => {
     return (
 
-        <div className="py-12">
+        <div className="py-12" id="contact">
             <div className="mx-3 bg-[#15202E] shadow-md rounded-md ">
                 <div className="lg:flex justify-between items-center gap-5 lg:ml-8 ">
                     <div className="w-full p-5">
-                        <h1 className="text-[#E47B35] text-2xl">Ready to Transform Your Career?</h1>
-                        <p>Join thousands of installers and companies already using MesseMatch to build successful partnerships</p>
-                        <div className="flex  mt-5">
+                        <h1 className="text-[#E47B35] font-medium text-[38px]">Bereit für den nächsten Karriereschritt?</h1>
+                        <p>Schließen Sie sich Tausenden von Installateuren und Unternehmen an, die MesseMatch bereits nutzen, um erfolgreiche Partnerschaften aufzubauen.</p>
+                        <div className="flex flex-wrap gap-2 justify-center lg:justify-start  mt-5">
                             <Image src={play} alt="Play Store" className="w-40 mr-4 inline-block" />
                             <Image src={app} alt="Apple Store" className="w-40  mr-4 inline-block" />
                         </div>

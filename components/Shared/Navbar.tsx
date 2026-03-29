@@ -10,11 +10,11 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", path: "#home" },
-    { name: "About", path: "#about" },
-    { name: "How It Works", path: "#how-it-works" },
-    { name: "Screen", path: "#screen" },
-    { name: "Contact", path: "#contact" },
+    { name: "Heim", path: "#home" },
+    { name: "Über uns", path: "#about" },
+    { name: "HSo funktioniert es", path: " " },
+    { name: "Bildschirm", path: "#screen" },
+    { name: "Kontakt", path: "#contact" },
   ];
 
   return (

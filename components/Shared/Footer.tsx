@@ -5,12 +5,13 @@ import Link from "next/link"
 const Footer = () => {
 
   const navLinks = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "How It Works", path: "/how-it-works" },
-    { name: "Screen", path: "/screen" },
-    { name: "Contact", path: "/contact" },
+    { name: "Heim", path: "#home" },
+    { name: "Über uns", path: "#about" },
+    { name: "So funktioniert es", path: "#how-it-works" },
+    { name: "Bildschirm", path: "#screen" },
+    { name: "Kontakt", path: "#contact" },
   ];
+
 
   return (
     <div className="bg-[#1A283A]">
@@ -32,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="text-center text-[#FFFFFF] py-5">
-        Copyright 2026 MesseMatch all rights reserved
+        Copyright 2026 MesseMatch. Alle Rechte vorbehalten.
       </p>
     </div>
   )
