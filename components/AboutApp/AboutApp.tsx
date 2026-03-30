@@ -14,7 +14,7 @@ const AboutApp = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-6 mt-10 md:mt-20'>
                 <div className='space-y-6 '>
                     {/* Feature 1 */}
-                    <div className='border border-[#894A20] rounded-xl shadow-2xl bg-[#15202E] px-5 py-4'>
+                    <div className='border border-[#894A20] rounded-xl shadow-2xl bg-[#15202E] px-5 py-4 '>
                         <div className='flex items-center gap-2 font-medium text-xl'>
                            <FaCircleCheck className='text-[#E47B35]' /> 
                            <p>Sofortiges Matching</p>

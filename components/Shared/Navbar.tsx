@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { HiX } from "react-icons/hi";
 import logo from "@/public/logo.png";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
     <nav className="bg-[#1A283A] text-white sticky top-0 z-50 px-3">
       {/* Main Navbar */}
       <div className="container mx-auto   py-2 flex items-center justify-between">
-        
+
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image src={logo} alt="Logo" width={200} height={200} />
@@ -42,8 +43,9 @@ const Navbar = () => {
 
         {/* Desktop Button */}
         <div className="hidden md:block">
-          <button className="bg-[#E47B35] px-5 py-2 rounded-lg hover:bg-[#d6702d] transition">
+          <button className="bg-[#E47B35] flex items-center gap-1 shadow-2xl text-white px-6 py-2 rounded-lg mt-4 hover:bg-[#E47B35]/90 transition cursor-pointer">
             Download
+            <MdOutlineFileDownload size={20} />
           </button>
         </div>
 
@@ -68,9 +70,8 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 left-0 w-3/4 h-full bg-[#1A283A] z-50 transform ${
-          menuOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 md:hidden`}
+        className={`fixed top-0 left-0 w-3/4 h-full bg-[#1A283A] z-50 transform ${menuOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 md:hidden`}
       >
         {/* Close Button */}
         <div className="flex justify-end p-4">
@@ -98,8 +99,9 @@ const Navbar = () => {
           ))}
 
           {/* Mobile Button */}
-          <button className="bg-[#E47B35] text-white px-6 py-2 rounded-lg mt-4">
+          <button className="bg-[#E47B35] flex items-center gap-1 shadow-2xl text-white px-6 py-2 rounded-lg mt-4 hover:bg-[#E47B35]/90 transition cursor-pointer">
             Download
+            <MdOutlineFileDownload size={20} />
           </button>
         </div>
       </div>
